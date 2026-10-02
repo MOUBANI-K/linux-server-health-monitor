@@ -50,7 +50,7 @@ Action: Check processes consuming high CPU.
 
 ## How I automated it
 
-I used a Linux cron job to run the script every 10 minutes.
+I used a Linux cron job to run the script every 5 minutes.
 
 My cron configuration:
 
