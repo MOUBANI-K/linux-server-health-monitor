@@ -55,7 +55,7 @@ I used a Linux cron job to run the script every 10 minutes.
 My cron configuration:
 
 ```bash
-*/10 * * * * /usr/bin/python3 /home/zion/server_health_monitor/healthcheck.py
+*/5 * * * * /usr/bin/python3 /home/zion/server_health_monitor/healthcheck.py
 ```
 
 I also redirect the script output to a separate cron log so that I can troubleshoot the scheduled execution if something goes wrong.
